@@ -3,6 +3,6 @@
 
 ## Install fonts
 
-'''paru -S nerd-fonts-fira-code
- 
+....paru -S nerd-fonts-fira-code
+
 ## Copy files 
