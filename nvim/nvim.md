@@ -7,7 +7,7 @@ nvpath="${HOME}/.config/nvim"
 
 ## install neovim
 
-pacman -S neovim
+pacman -S neovim --needed
 
 ## neovim config
 
@@ -30,7 +30,9 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 :CocInstall coc-pairs coc-clangd coc-python
 
 ### Packages
+
 paru -S code-minimap nodejs clangd npm
+
 ##### code-minimap
 ##### nodejs
 ##### clang
