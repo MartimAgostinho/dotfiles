@@ -52,4 +52,9 @@ paru -S code-minimap nodejs clangd npm
 ##### clang
 ##### npm # ou yarn?
 
+### Copy
+
+```bash
+cp init.vim $HOME/.config/nvim
+```
 
