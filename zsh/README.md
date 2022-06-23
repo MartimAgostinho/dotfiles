@@ -3,11 +3,11 @@
 
 # Install 
 
-´´´bash
+```bash
 paru -S zsh oh-my-zsh --needed
 ```
 # Copy File
 
-´´´bash
+```bash
 cp .zshrc $HOME
 ```
