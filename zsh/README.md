@@ -4,7 +4,7 @@
 # Install 
 
 ```bash
-paru -S zsh oh-my-zsh --needed
+paru -S zsh oh-my-zsh zsh-completions zsh-autosuggestions --needed
 ```
 # Copy File
 
