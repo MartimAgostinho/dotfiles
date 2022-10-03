@@ -3,4 +3,4 @@ cd paru-bin
 makepkg -si
 cd ..
 
-paru -S base-devel kitty neovim stremio steam notion-app-enhanced discord --needed 
+paru -S base-devel kitty neovim stremio steam notion-app-enhanced discord all-repository-fonts --needed 
