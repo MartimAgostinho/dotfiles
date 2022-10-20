@@ -1,1 +1,4 @@
 https://extensions.gnome.org/extension/5338/aylurs-widgets/
+https://extensions.gnome.org/extension/1708/transparent-top-bar/
+https://extensions.gnome.org/extension/3843/just-perfection/
+
