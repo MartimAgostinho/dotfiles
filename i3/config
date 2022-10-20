@@ -185,7 +185,7 @@ bindsym $mod+r mode "resize"
 
 bindsym $mod+Shift+Escape exec multilockscreen -l dimblur
 bindsym $mod+greater move workspace to output right
-bindsym --release Shift+Print exec escrotum /home/martim/Screenshots/screenshot_%Y%m%d_%H%M%S.png 
+bindsym --release Shift+Print exec escrotum $HOME/Screenshots/screenshot_%Y%m%d_%H%M%S.png 
 
 #Gaps
 bindsym $mod+m	  	  gaps inner current plus  5
@@ -205,9 +205,9 @@ bindsym XF86AudioPrev     exec playerctl previousa
 
 exec 	    spotify
 exec 	    spotblock 
-exec_always --no-startup-id python3 /home/martim/.config/i3/i3-swallow.py
+exec_always --no-startup-id python3 $HOME/.config/i3/i3-swallow.py
 exec_always compton -f
-exec_always feh --bg-fill /home/martim/Wallpapers/WhatsApp Image 2020-09-30 at 22.40.43.jpeg 
+exec_always feh --bg-fill $HOME/.wallpaper/hc4meb2nrqm81.jpg
 for_window [class="^.*"] border pixel 2
 
 set $bg-color 	         #a14f4f
@@ -233,7 +233,7 @@ smart_borders no_gaps
 # bar
 bar {
 	position top
-  	status_command i3blocks -c /home/martim/.config/i3/i3blocks.conf
+  	status_command i3blocks -c $HOME/.config/i3/i3blocks.conf
 	colors {
 		background #2f343f
 	    	separator #757575
