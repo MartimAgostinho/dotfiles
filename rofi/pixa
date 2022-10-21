@@ -1,0 +1,147 @@
+
+#window {
+    background-color: rgba (161, 79, 79, 100%);
+    border:           1;
+    padding:          1;
+	width:			40%;
+	height: 		30%;
+}
+#mainbox {
+    border:  2;
+    padding: 2;
+    background-color:     rgba(28, 35, 43, 100%);
+}
+#message {
+   background-color:     rgba(28, 35, 43, 100%);
+    border:       0px 0px 0px ;
+    border-color: rgba(28, 35, 43, 100%);
+    padding:      1px ;
+}
+#textbox {
+   background-color:     rgba(28, 35, 43, 100%);
+    text-color: rgba(28, 35, 43, 100%);
+}
+#listview {
+   background-color:     rgba(28, 35, 43, 100%);
+    fixed-height: 0;
+    border:       0px 0px 0px ;
+    border-color: rgba(28, 35, 43, 100%);
+    spacing:      2px ;
+    scrollbar:    true;
+    padding:      2px 0px 0px ;
+}
+#element {
+   background-color:     rgba(28, 35, 43, 100%);
+    border:  0;
+    padding: 2px 2px ;
+}
+#element.normal.normal {
+   background-color:     rgba(28, 35, 43, 100%);
+    text-color: rgba(168, 153, 132, 100%);
+}
+#element.normal.urgent {
+   background-color:     rgba(28, 35, 43, 100%);
+    text-color: rgba(168, 153, 132, 100%);
+}
+#element.normal.active {
+   background-color:     rgba(28, 35, 43, 100%);
+    text-color: rgba(168, 153, 132, 100%);
+}
+#element.selected.normal {
+   background-color:     rgba(28, 35, 43, 100%);
+    text-color: rgba(168, 153, 132, 100%);
+}
+#element.selected.urgent {
+   background-color:     rgba(28, 35, 43, 100%);
+    text-color: rgba(168, 153, 132, 100%);
+}
+#element.selected.active {
+    background-color:     rgba(28, 35, 43, 100%);
+    text-color: rgba(168, 153, 132, 100%);
+}
+#element.alternate.normal {
+    background-color:     rgba(28, 35, 43, 100%);
+    text-color: rgba(168, 153, 132, 100%);
+}
+#element.alternate.urgent {
+    background-color:     rgba(28, 35, 43, 100%);
+    text-color: rgba(168, 153, 132, 100%);
+}
+#element.alternate.active {
+    background-color:     rgba(28, 35, 43, 100%);
+    text-color: rgba(168, 153, 132, 100%);
+}
+#scrollbar {
+   background-color:     rgba(28, 35, 43, 100%);
+    width:        0 ;
+    border:       0;
+    handle-width: 0px ;
+    padding:      0;
+}
+#sidebar {
+    background-color:     rgba(28, 35, 43, 100%);
+    border:       0px 0px 0px ;
+    border-color: @separatorcolor;
+}
+#button.selected {
+    background-color:     rgba(28, 35, 43, 100%);
+    text-color: rgba(168, 153, 132, 100%);
+}
+#inputbar {
+    spacing:    0;
+   background-color:     rgba(28, 2555, 43, 100%);
+    padding:    10px 20px 20px;
+	margin: 0px 0px 15px;
+	border: 0px 0px 2px;
+	border-color: @selected-normal-backgrouna;
+        background-color:     rgba(28, 35, 43, 100%);
+
+}
+#case-indicator {
+    spacing:    0;
+    background-color:     rgba(28, 35, 43, 100%);
+    text-color: rgba(168, 153, 132, 100%);
+}
+#entry {
+    spacing:    0;
+   background-color:     rgba(28, 35, 43, 100%);
+    text-color: rgba(168, 153, 132, 100%);
+}
+#prompt {
+    spacing:    0;
+    background-color:     rgba(28, 35, 43, 100%);
+    text-color: rgba(168, 153, 132, 100%);
+	font: "Inconsolata Bold 15";
+	margin: -2px 0 0 0;
+}
+
+#textbox-prompt-colon {
+   background-color:     rgba(28, 35, 43, 100%);
+    expand:     false;
+    str:        " > ";
+    margin:     0 0.3em 0em 0em ;
+    text-color: rgba(168, 153, 132, 100%);
+	font: "Hack Bold 12";
+}
+
+#mode-switcher {
+    background-color:     rgba(28, 35, 43, 1%);
+    text-color: rgba(168, 153, 132, 100%);
+}
+
+
+#listview{
+
+    background-color:     rgba(28, 35, 43, 100%);
+
+}
+
+#child{
+    text-color: rgba(168, 153, 132, 100%);
+    background-color:     rgba(28, 35, 43, 100%);
+
+}
+#textbox{
+    text-color: rgba(168, 153, 132, 100%);
+   background-color:     rgba(28, 35, 43, 100%);
+}
