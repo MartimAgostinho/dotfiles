@@ -4,10 +4,11 @@ nvpath="${HOME}/.config/nvim"
 
 ## install neovim
 
-paru -S neovim code-minimap nodejs clangd npm --needed
+paru -S neovim code-minimap-bin nodejs clangd npm --needed
 
 ## neovim config
 
+mkdir $nvpath
 cp init.vim $nvpath
 
 ## vim-plug install
