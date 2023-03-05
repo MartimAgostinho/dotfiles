@@ -4,7 +4,7 @@ nvpath="${HOME}/.config/nvim"
 
 ## install neovim
 
-paru -S neovim code-minimap-bin nodejs clangd npm --needed
+paru -S neovim code-minimap-bin nodejs clangd npm jdtls --needed
 
 ## neovim config
 
@@ -26,7 +26,7 @@ nvim -c PlugUpdate  -c q -c q
 
 ### coc plug ( no nvim )
 
-nvim -c 'CocInstall coc-pairs coc-clangd coc-python' -c q -c q
+nvim -c 'CocInstall coc-pairs coc-clangd coc-python coc-java' -c q -c q
 ### Packages
 
-#code-minimap nodejs clangd npm
+#code-minimap nodejs clangd npm jdtls
