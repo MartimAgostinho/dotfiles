@@ -41,7 +41,7 @@ Plug 'wfxr/minimap.vim'                            " minimap paru -S code-minima
 "--- Autocomplete
 Plug 'neoclide/coc.nvim', {'branch': 'release'}    " pacman clang 
 Plug 'lukas-reineke/indent-blankline.nvim'
-
+inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm() : "\<CR>" " Fazer o enter funcionar
 
 call plug#end()
 
