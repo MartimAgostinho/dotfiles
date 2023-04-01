@@ -1,0 +1,11 @@
+base-devel 
+kitty 
+neovim 
+stremio 
+steam 
+notion-app-enhanced 
+discord 
+all-repository-fonts
+alsa-utils
+playerctl
+iwd
