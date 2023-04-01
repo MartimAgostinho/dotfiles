@@ -37,11 +37,12 @@ call plug#begin('~/.config/nvim/plugged')
 Plug 'nvim-lualine/lualine.nvim'                   " Status line
 Plug 'machakann/vim-highlightedyank'               " Highlight yanked text
 Plug 'wfxr/minimap.vim'                            " minimap paru -S code-minimap
+Plug 'morhetz/gruvbox'                             " GruvboxTheme
 
 "--- Autocomplete
 Plug 'neoclide/coc.nvim', {'branch': 'release'}    " pacman clang 
 Plug 'lukas-reineke/indent-blankline.nvim'
-inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm() : "\<CR>" " Fazer o enter funcionar
+inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm() : "\<CR>"
 
 call plug#end()
 
