@@ -3,4 +3,4 @@ cd paru-bin
 makepkg -si
 cd ..
 
-paru -S - < packages.txt --needed
+paru -S --needed - < packages.txt 
